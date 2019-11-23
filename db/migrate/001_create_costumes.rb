@@ -9,7 +9,7 @@ class CreateCostumes < ActiveRecord::Migration[5.1]
         t.string :image_url
 
 
-        t.timestamps null
+        t.timestamps 
 
     end
   end
